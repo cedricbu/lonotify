@@ -19,10 +19,10 @@ Use `-d` option to daemonize it.
 ### Clients
 The clients will simply connect on loopback port `4455`, and send then notification. The SSH connection will redirect that to the local machine's port 4455.
 
-**throwtext.pl** : an IRSSI plugin
+**throwtext.pl** : a IRSSI plugin
 
-  It provides the following :
-   - command '/throwtext' : to simply send text to lonotifyd
+It provides the following :
+   - command '/throwtext' : to simply send text to lonotifyd.
    - option 'pm_override' : sometimes, you want privacy. This string will replace any private message you receive.
 
 **lonotify-client.pl** : a CLI.
@@ -31,6 +31,12 @@ The clients will simply connect on loopback port `4455`, and send then notificat
 ```
 $ lonotify-client.pl -t "title" -m "body of the message"
 ```
+
+**weechat/throwtext.pl** : a weechat plugin
+
+It provides the following:
+    - command `/throwtext` : to simply send text to lonotifyd.
+    
 
 ## Benefits
 
