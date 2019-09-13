@@ -22,8 +22,8 @@ The clients will simply connect on loopback port `4455`, and send then notificat
 **throwtext.pl** : a IRSSI plugin
 
 It provides the following :
-   - command '/throwtext' : to simply send text to lonotifyd.
-   - option 'pm_override' : sometimes, you want privacy. This string will replace any private message you receive.
+   - command `throwtext` : to simply send text to lonotifyd.
+   - option `pm_override` : sometimes, you want privacy. This string will replace any private message you receive.
 
 **lonotify-client.pl** : a CLI.
 
@@ -62,4 +62,5 @@ It provides the following:
 
 ## TODO
 - Correct the stuck port on connection drop
-- add optional stuff to the protocol, such as compression, icons, etc.
+- add optional stuff to the protocol, such as compression, icons, etc.i
+- test text
